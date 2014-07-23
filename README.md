@@ -10,13 +10,13 @@ john2048
 目录结构<br/>
   |---js<br/>
   | &emsp;  |_2048.js 游戏主程<br/>
-  |   |_algorithm.js 算法部分<br/>
-  |   |_fx.js 动画部分<br/>
-  |   |_skin.js 单元格外观<br/>
-  |   |_support.js 游戏的基础功能支持<br/>
-  |   |_tool.js 通用功能支持<br/>
+  | &emsp;  |_algorithm.js 算法部分<br/>
+  | &emsp;  |_fx.js 动画部分<br/>
+  | &emsp;  |_skin.js 单元格外观<br/>
+  | &emsp;  |_support.js 游戏的基础功能支持<br/>
+  | &emsp;  |_tool.js 通用功能支持<br/>
   |---style<br/>
-  |   |_2048.css 样式<br/>
+  | &emsp;  |_2048.css 样式<br/>
   |---2048.html 游戏入口<br/>
 
 
