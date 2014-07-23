@@ -9,7 +9,7 @@ john2048
 
 目录结构<br/>
   |---js<br/>
-  |   |_2048.js 游戏主程<br/>
+  | &emsp;  |_2048.js 游戏主程<br/>
   |   |_algorithm.js 算法部分<br/>
   |   |_fx.js 动画部分<br/>
   |   |_skin.js 单元格外观<br/>
