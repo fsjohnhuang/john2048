@@ -8,16 +8,16 @@ john2048
 2. 功能模块化。
 
 目录结构<br/>
-  |-js<br/>
-  |  |_2048.js 游戏主程<br/>
-  |  |_algorithm.js 算法部分<br/>
-  |  |_fx.js 动画部分<br/>
-  |  |_skin.js 单元格外观<br/>
-  |  |_support.js 游戏的基础功能支持<br/>
-  |  |_tool.js 通用功能支持<br/>
-  |-style<br/>
-  |  |_2048.css 样式<br/>
-  |-2048.html 游戏入口<br/>
+  |---js<br/>
+  |   |_2048.js 游戏主程<br/>
+  |   |_algorithm.js 算法部分<br/>
+  |   |_fx.js 动画部分<br/>
+  |   |_skin.js 单元格外观<br/>
+  |   |_support.js 游戏的基础功能支持<br/>
+  |   |_tool.js 通用功能支持<br/>
+  |---style<br/>
+  |   |_2048.css 样式<br/>
+  |---2048.html 游戏入口<br/>
 
 
 
