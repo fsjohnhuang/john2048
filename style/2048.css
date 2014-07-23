@@ -1,0 +1,63 @@
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration: none;
+	color: #000;	
+}
+a:active{
+	text-decoration: none;
+	color: #000;
+}
+
+#main{
+	width: 500;
+	margin:0 auto;
+	text-align: center;
+}
+.score{
+	font-weight: bolder;
+}
+.replay{
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	line-height: 28px;
+	border: solid 2px #888;
+	background-color: #aaa;
+	border-radius: 5px; 
+	margin: 0 10px;
+}
+#grid{
+	width: 460px;
+	height: 460px;
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+	margin:10px auto;
+	background-color: #B6AA9A;
+}
+.grid-cell{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: #CDC1B3;
+}
+.number-cell{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	background-color:#EE9A49; 
+	text-align: center;
+	line-height: 100px;
+	font-size: 80px;
+	font-weight: bolder;
+}
+.empty-number-cell{
+	width: 0;
+	height: 0;
+	font-size:20px;
+}
