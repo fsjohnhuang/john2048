@@ -1,0 +1,46 @@
+#grid{
+	width: 355px;
+	height: 355px;
+	margin-top: 10px;
+}
+
+.grid-cell, .number-cell{
+	width: 80px;
+	height: 80px;
+	margin: 7px 0 0 7px;
+	line-height: 80px;
+}
+
+.number-cell-1, .number-cell-2, .number-cell-3, .number-cell-4, .number-cell-5, .number-cell-6{
+	font-size: 45px;
+}
+.number-cell-7, .number-cell-8, .number-cell-9{
+	font-size: 35px;
+}
+.number-cell-10, .number-cell-11, .number-cell-12{
+	font-size: 26px;
+}
+.number-cell:nth-child(4n+1){
+	left: 0;
+}
+.number-cell:nth-child(4n+2){
+	left: 87px;
+}
+.number-cell:nth-child(4n+3){
+	left: 174px;
+}
+.number-cell:nth-child(4n+4){
+	left: 261px;
+}
+.number-cell:nth-child(17),.number-cell:nth-child(18),.number-cell:nth-child(19),.number-cell:nth-child(20){
+	top: 0;
+}
+.number-cell:nth-child(21),.number-cell:nth-child(22),.number-cell:nth-child(23),.number-cell:nth-child(24){
+	top: 87px;
+}
+.number-cell:nth-child(25),.number-cell:nth-child(26),.number-cell:nth-child(27),.number-cell:nth-child(28){
+	top: 174px;
+}
+.number-cell:nth-child(29),.number-cell:nth-child(30),.number-cell:nth-child(31),.number-cell:nth-child(32){
+	top: 261px;
+}
